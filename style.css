@@ -1,0 +1,142 @@
+html{
+	font-family: "Myriad Pro", sans-serif;
+}
+
+h1{
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding-top: 50px;
+}
+
+header{
+	background-color: #004f51;
+}
+
+.navbar {
+	width: 65.5%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 25px 50px 0px 50px;
+
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #777;
+}
+
+.carousel {
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.carousel-inner {
+    width: 900px;
+    height: 500px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.carousel-control.left {
+    margin-left:-40px;
+    background: #747576;
+    background-size: 8px 8px;
+    border: 1px solid #bbb;
+    border-color: #747576;
+    -webkit-border-radius: 50%;
+    height: 50px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    display:none;
+}
+.carousel-control.right {
+    margin-right:-40px;
+    background: #747576;
+    background-size: 8px 8px;
+    border: 1px solid #bbb;
+    border-color: #747576;
+    -webkit-border-radius: 50%;
+    height: 50px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    display:none;
+}
+.carousel:hover .carousel-control.left, .carousel:hover .carousel-control.right {
+    display:block;
+}
+.carousel-indicators {
+    bottom: 0px;
+    padding-left: 25%;
+}
+.carousel-indicators li {
+    background-color: #747576;
+    opacity: .5;
+    border:none;
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    background-color: #747576;
+    opacity: 1;
+}
+.carousel.col-xs-5 {
+    width:400px;
+}
+.carousel.col-xs-6 { 
+    width:450px;
+}
+.carousel.col-xs-7 {
+    width:500px;
+}
+.slide-1 {
+    background-color: black;
+    height: 500px;
+}
+.slide-2 {
+    background-color: black;
+    height: 500px;
+}
+.slide-3 {
+    background-color: black;
+    height: 500px;
+}
+.slide-caption.left{
+    left: 32px;
+    line-height: 32px;
+    position: relative;
+    top: 84px;
+    z-index: 1;    
+}
+.slide-caption.center {
+    text-align: center;
+    top: 60px;
+    position: relative;
+}
+.slide-caption .btn {
+   border-radius:3px; 
+}
