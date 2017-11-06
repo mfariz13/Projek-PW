@@ -205,3 +205,21 @@ li a:hover {
 .slide-caption .btn {
    border-radius:3px; 
 }
+.kotakabout {
+    background-color: #004f51;
+    color: white;
+    padding-left: 20px;
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 700px;
+    height: 150px; 
+}
+.kotakcontact {
+    background-color: #004f51;
+    color: white;
+    padding-left: 20px;
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 700px;
+    height: 290px;  
+}
